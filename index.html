@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#151B20">
+<link rel="icon" href="assets/art/web/icon.webp">
+<link rel="apple-touch-icon" href="assets/art/web/icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="취향컷">
+<title>취향컷</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="styles.css?v=fbbb5d3781a6a1ca">
+</head>
+<body>
+<main id="app" class="app">
+  <div class="boot">
+    <div class="brand"><img class="brand-icon" src="assets/art/web/icon.webp" alt="" width="36" height="36"><span class="brand-name">취향컷</span></div>
+    <p>취향 계산 준비 중…</p>
+  </div>
+</main>
+
+<nav id="tabbar" class="tabbar" aria-label="아래 메뉴" hidden>
+  <a href="#/home" data-tab="home"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5 5-2z"/></svg><span>발견</span></a>
+  <a href="#/taste" data-tab="taste"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l1.9 5.1 5.1 1.9-5.1 1.9L12 17.5l-1.9-5.1L5 10.5l5.1-1.9z"/><path d="M18.5 16v4M16.5 18h4"/></svg><span>취향</span></a>
+  <a href="#/saved" data-tab="saved"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4h11v16.5l-5.5-3.8-5.5 3.8z"/></svg><span>찜</span><i class="tab-dot" hidden></i></a>
+  <a href="#/history" data-tab="history"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19V11M10 19V5M15 19v-6M20 19V8"/></svg><span>내 기록</span></a>
+</nav>
+
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<div id="modal" class="modal" hidden></div>
+
+<script src="phone.js?v=19fe45e47c8ab39d"></script>
+</body>
+</html>

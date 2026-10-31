@@ -1,0 +1,31 @@
+{
+  "version": "2026.10.31-094407",
+  "at": "10월 31일 09:44",
+  "files": {
+    "app.js": "85b502fdfa2762e4",
+    "assets/art/web/action-1.webp": "5f5ac2aa662c8bd2",
+    "assets/art/web/action-2.webp": "b844459ffc196b6e",
+    "assets/art/web/afterglow-1.webp": "aef5cc5ae499fa31",
+    "assets/art/web/afterglow-2.webp": "76a01671ed478fc8",
+    "assets/art/web/icon-180.png": "3147d4ae2c810383",
+    "assets/art/web/icon-192.png": "c15e918bfc9f6c7d",
+    "assets/art/web/icon-512.png": "627d910445a8062b",
+    "assets/art/web/icon.webp": "236bc555b9e28409",
+    "assets/art/web/laugh-1.webp": "0067d5843accb676",
+    "assets/art/web/laugh-2.webp": "4b3120f191509fe9",
+    "assets/art/web/pace-1.webp": "ea6d5e4bcbe81fb3",
+    "assets/art/web/pace-2.webp": "519e36330a5abaf3",
+    "assets/art/web/story-1.webp": "23a759ac43d2717f",
+    "assets/art/web/story-2.webp": "4ec578205378c07d",
+    "assets/art/web/tension-1.webp": "d3ac255e5498edef",
+    "assets/art/web/tension-2.webp": "75112874ed5b3720",
+    "assets/art/web/welcome.webp": "493dc855652d6d85",
+    "data.bin": "a23f6c6c72ee3929",
+    "engine.js": "8634d34f1c4d92ec",
+    "index.html": "745093c1719207d5",
+    "manifest.webmanifest": "01834b22dd15b543",
+    "news.bin": "809e247bca67837a",
+    "phone.js": "19fe45e47c8ab39d",
+    "styles.css": "fbbb5d3781a6a1ca"
+  }
+}
